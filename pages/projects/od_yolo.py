@@ -35,6 +35,7 @@ def run_od_yolo():
     """
     st.write(drsc2)   
     st.write("[Demo Video](https://www.youtube.com/watch?v=lLWXCNhjrUA&ab_channel=SubhabrataNath)") # video link
-    st_player("https://youtu.be/lLWXCNhjrUA") # yotube link
+    with st.spinner("Please wait until the player is loading"):
+        st_player("https://youtu.be/lLWXCNhjrUA") # yotube link
 
     

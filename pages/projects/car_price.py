@@ -18,7 +18,7 @@ def run_car_price():
     car_price_src = "https://share.streamlit.io/subha996/used-car-price-prediction/main/main.py"
     st.write("[Web Link](https://share.streamlit.io/subha996/used-car-price-prediction/main/main.py)" + "\n" + "Please wait until the below page is loading") 
     st.components.v1.iframe(car_price_src, width=1300, height=800, scrolling=True)
-
-    st_player("https://www.youtube.com/watch?v=ia6E3C4aIzQ&list=PLPL68eAk13fsESpD9_-2fl6zb-PFknvd8&index=7")
+    with st.spinner("Please wait until the player is loading"):
+        st_player("https://www.youtube.com/watch?v=ia6E3C4aIzQ&list=PLPL68eAk13fsESpD9_-2fl6zb-PFknvd8&index=7")
     st.write("[Full Playlist](https://www.youtube.com/playlist?list=PLPL68eAk13fsESpD9_-2fl6zb-PFknvd8)")
     st.write("[Detailed Report can be found here.](https://github.com/subha996/Used-Car-Price-Prediction/blob/main/sales%20car%20price%20predictions.pptx)")

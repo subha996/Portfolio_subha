@@ -43,7 +43,7 @@ col2.image(img)
 col1.markdown("<h5 style='text-align: left; color: red;'>Contact</h5>", unsafe_allow_html=True)
 col1.write("Email: subhabratanath98@gmail.com")
 col1.write("Address: Mumbai, India")
-st.write("[Github](https://github.com/subha996)")
+col1.write("[Github](https://github.com/subha996)")
 # creating resume path
 resume = os.path.join("resume", "Resume.pdf")
 with open(resume, "rb") as f: # opening the resume file as bytes
@@ -53,3 +53,4 @@ with open(resume, "rb") as f: # opening the resume file as bytes
 date = datetime.now().strftime("%Y_%m_%d-%I:%M:%S_%p")
 file_name = "Subhabrata_Nath_Resume_" + date + ".pdf"
 col1.download_button(label="Download Resume", data=pdf, file_name=file_name)
+

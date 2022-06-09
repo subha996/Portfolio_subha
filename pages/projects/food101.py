@@ -24,5 +24,6 @@ def run_food101():
     st.components.v1.iframe(src, width=1300, height=700, scrolling=True)
     # video
     st.write("[Video Link](https://youtu.be/tP1Zj2f6TQU)")
-    st_player("https://youtu.be/tP1Zj2f6TQU")
+    with st.spinner("Please wait until the player is loading"):
+        st_player("https://youtu.be/tP1Zj2f6TQU")
     
