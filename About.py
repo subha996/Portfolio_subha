@@ -43,7 +43,7 @@ col2.image(img)
 col1.markdown("<h5 style='text-align: left; color: red;'>Contact</h5>", unsafe_allow_html=True)
 col1.write("Email: subhabratanath98@gmail.com")
 col1.write("Address: Mumbai, India")
-
+st.write("[Github](https://github.com/subha996)")
 # creating resume path
 resume = os.path.join("resume", "Resume.pdf")
 with open(resume, "rb") as f: # opening the resume file as bytes

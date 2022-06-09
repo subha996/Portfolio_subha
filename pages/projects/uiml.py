@@ -21,4 +21,5 @@ def run_uiml():
 
     # http://uiml.herokuapp.com/ # deployment link
     st.write("[Demo Video](https://youtu.be/6wd-zUU0UMQ?list=PLPL68eAk13ftZWE40_teT3NCWW5ChFqWs)")
-    st_player("https://youtu.be/6wd-zUU0UMQ?list=PLPL68eAk13ftZWE40_teT3NCWW5ChFqWs")
+    with st.spinner("Please wait until the player is loading"):
+        st_player("https://youtu.be/6wd-zUU0UMQ?list=PLPL68eAk13ftZWE40_teT3NCWW5ChFqWs")
